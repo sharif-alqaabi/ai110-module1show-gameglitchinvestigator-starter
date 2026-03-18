@@ -37,7 +37,13 @@ I moved core logic into logic_utils.py and fixed each bug. I corrected hint mess
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] <img width="1470" height="830" alt="Screenshot 2026-03-17 at 6 45 25 PM" src="https://github.com/user-attachments/assets/cdcb7f6f-4ebb-48c3-afb6-5d5fec41c461" />
+
 
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+
+Challenge 2
+<img width="1253" height="888" alt="Screenshot 2026-03-17 at 6 34 42 PM" src="https://github.com/user-attachments/assets/4991e32c-c35c-4ba8-bd2d-5b41a6e5cc73" />
+
