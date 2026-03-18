@@ -26,8 +26,13 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+This game is a number guessing game made with Streamlit. The player picks a difficulty, enters guesses, and gets hints until they win or run out of attempts. It also tracks score, attempts, and guess history. The goal is to practice debugging AI code, state handling, and testing skills carefully.
+
 - [ ] Detail which bugs you found.
+I found several bugs in the starter code. Hint directions were reversed, so feedback was wrong. Hard mode used a smaller range than Normal mode. New Game did not fully reset state. Attempts were off by one. Secret type changed to string sometimes. Tests also expected the wrong return format.
+
 - [ ] Explain what fixes you applied.
+I moved core logic into logic_utils.py and fixed each bug. I corrected hint messages, set Hard range to 1-200, and rejected decimal guesses. I reset full session state on New Game and difficulty change. I counted attempts only for valid guesses and updated tests. Finally, all tests passed successfully now.
 
 ## 📸 Demo
 
